@@ -21,7 +21,7 @@ Failure (for example the Windsor.ai trial has ended): don't retry repeatedly. Te
 
 1. Search the last ~24 hours: Canadian Centre for Cyber Security alerts, Canadian Anti-Fraud Centre and RCMP scam warnings, Microsoft 365 outages and changes, and B.C. or Vancouver stories that affect small businesses. Open the source pages; don't rely on snippets.
 2. Check `queue.json` and recent posts so the same message isn't repeated.
-3. Nothing relatable and confirmable: reply with one line ("No post-worthy news today") and stop.
+3. Nothing relatable and confirmable: reply with one line ("No post-worthy news today") and stop. On Mondays, include the suggested Note (see below) before stopping.
 4. Otherwise draft one post (two at most) in the personal, local, funny voice: hook, 6 slides, caption, hashtags, sources. Build the slides at 1080 × 1350 in the Liontech brand (scripts and logo assets in `/home/claude/ig`: `lib.py`, `build2.py` pattern). Send Andrei the previews and the caption, then ask: **"Post now, or schedule for the next 8:30 am slot?"**
    **Mondays:** whether or not there's news, also suggest one Instagram Note for the "Share a thought…" bubble (about 60 characters, lasts 24 hours). Make it timely or a useful one-line reminder in the brand voice. Notes can't be posted through the API, so Andrei pastes it in the app himself.
 5. Publish nothing without his approval. When he replies:
