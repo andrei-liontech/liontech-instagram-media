@@ -4,6 +4,8 @@ Two runs a day, both delivered into Andrei's Liontech Instagram chat (America/Va
 
 Voice and rules: the `liontech-instagram` skill if saved; otherwise the brief and the "Voice: personal, local and funny" section in the launch-pack doc (https://claude.ai/artifact/JPzVvBT55FNTCXVEJZk19A). Public support channel: "Submit a Ticket" on liontech.ca. Don't link the knowledge base.
 
+Time zone note: this workspace's time zone data may still apply UTC-8 to Vancouver in winter, but the user's clock and the scheduler use UTC-7. Compute local dates and times as UTC-7 (offset -07:00).
+
 Instagram account: @liontech_solutions, Windsor.ai connector `instagram`, account id in `queue.json`.
 
 ## 8:30 am: publish run
