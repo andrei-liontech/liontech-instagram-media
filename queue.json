@@ -1,66 +1,80 @@
 {
-  "_about": "Approved @liontech_solutions posts waiting to publish. The 8:30 am run publishes the oldest due post (publish_on <= today, America/Vancouver), one per day, then sets status to published with its permalink.",
-  "instagram_account": "17841405894895877",
-  "posts": [
-    {
-      "id": "2026-11-13-m365-outage",
-      "publish_on": "2026-11-13",
-      "status": "published",
-      "permalink": "https://www.instagram.com/p/DftZThaAq0v/",
-      "published_at": "2026-11-13T21:55:00-07:00"
-    },
-    {
-      "id": "2026-11-19-holiday-market-scam",
-      "publish_on": "2026-11-15",
-      "status": "published",
-      "approved": "2026-11-13",
-      "image_urls": [
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-1.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-2.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-3.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-4.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-5.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-6.jpg"
-      ],
-      "caption": "Fake Christmas market booths. Real money gone. Ho ho no.\n\nThis month, scammers pretended to be B.C. holiday markets. They sent vendors invitations with real dates, table sizes and prices copied from the markets' own websites. Vendors paid by e-transfer to hold a spot. Some lost more than $1,000.\n\nThe same trick works on offices. A \"supplier\" emails an invoice with new bank details. It looks normal. The money goes to a scammer.\n\nOne rule stops both:\nNew payment details? Call first, using a number you already have. Not the one in the email.\n\nRushing is the scammer's best friend. A real supplier can wait for a 2-minute phone call.\n\nSave this and share it with whoever pays the bills.\n\n#ScamAlert #BCBusiness #VancouverBusiness #SmallBusinessTips #Cybersecurity",
-      "permalink": "https://www.instagram.com/p/DfxG7ZoDmGV/",
-      "published_at": "2026-11-15T08:31:23-07:00"
-    },
-    {
-      "id": "2026-11-17-fake-it-calls",
-      "publish_on": "2026-11-16",
-      "status": "replaced",
-      "approved": "2026-11-13",
-      "image_urls": [
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-1.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-2.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-3.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-4.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-5.jpg",
-        "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-6.jpg"
-      ],
-      "caption": "Plot twist: the IT guy calling you isn't your IT guy.\n\nOn Oct 28, Canada's Cyber Centre warned that scammers are calling staff at Canadian organizations, pretending to be IT support. They say there's an urgent security update, then send you to a fake sign-in page that looks like your company's. You sign in, they get in.\n\nThe fix is easy:\n1. Hang up. Politely.\n2. Call IT back on a number you already have.\n3. Never sign in on a link someone gives you during a call.\n\nCaller ID can be faked, so a familiar number isn't proof. A real IT person won't mind waiting two minutes. A scammer will.\n\nShare this with your team, especially the new person.\n\n#Cybersecurity #ScamAlert #VancouverBusiness #SmallBusinessTips #Microsoft365",
-      "note": "Replaced by the reel 2026-11-16-hang-up-reel at Andrei's request (Nov 16). Not published. Slides remain in posts/ for later use."
-    },
-    {
-      "id": "2026-11-15-market-scam-reel",
-      "type": "reel",
-      "publish_on": "2026-11-15",
-      "status": "published",
-      "permalink": "https://www.instagram.com/reel/Dfx2Eo_EpzI/",
-      "published_at": "2026-11-15T15:24:01-07:00",
-      "note": "Replaces the carousel 2026-11-19-holiday-market-scam (deletion pending Andrei's confirmation)"
-    },
-    {
-      "id": "2026-11-16-hang-up-reel",
-      "type": "reel",
-      "publish_on": "2026-11-16",
-      "status": "published",
-      "approved": "2026-11-16",
-      "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8866cd56abb8126335b74a02802e5e79a11615bf/posts/2026-11-16-hang-up-reel/hang-up-reel.mp4",
-      "caption": "Plot twist: the IT guy calling you isn't your IT guy.\n\nOn Oct 28, Canada's Cyber Centre warned that scammers are calling staff at Canadian organizations, pretending to be IT support. They say there's an urgent security update, then send you to a fake sign-in page that looks like your company's. You sign in, they get in.\n\nThe fix is easy:\n1. Hang up. Politely.\n2. Call IT back on a number you already have.\n3. Never sign in on a link someone gives you during a call.\n\nCaller ID can be faked, so a familiar number isn't proof. A real IT person won't mind waiting two minutes. A scammer will.\n\nShare this with your team, especially the new person.\n\n#Cybersecurity #ScamAlert #VancouverBusiness #SmallBusinessTips #Microsoft365",
-      "permalink": "https://www.instagram.com/reel/DfzrrmiCXMm/",
-      "published_at": "2026-11-16T08:32:06-07:00"
-    }
-  ]
+ "_about": "Approved @liontech_solutions posts waiting to publish. The 8:30 am run publishes the oldest due post (publish_on <= today, America/Vancouver), one per day, then sets status to published with its permalink.",
+ "instagram_account": "17841405894895877",
+ "posts": [
+  {
+   "id": "2026-11-13-m365-outage",
+   "publish_on": "2026-11-13",
+   "status": "published",
+   "permalink": "https://www.instagram.com/p/DftZThaAq0v/",
+   "published_at": "2026-11-13T21:55:00-07:00"
+  },
+  {
+   "id": "2026-11-19-holiday-market-scam",
+   "publish_on": "2026-11-15",
+   "status": "published",
+   "approved": "2026-11-13",
+   "image_urls": [
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-1.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-2.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-3.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-4.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-5.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-19-holiday-market-scam/market-scam-6.jpg"
+   ],
+   "caption": "Fake Christmas market booths. Real money gone. Ho ho no.\n\nThis month, scammers pretended to be B.C. holiday markets. They sent vendors invitations with real dates, table sizes and prices copied from the markets' own websites. Vendors paid by e-transfer to hold a spot. Some lost more than $1,000.\n\nThe same trick works on offices. A \"supplier\" emails an invoice with new bank details. It looks normal. The money goes to a scammer.\n\nOne rule stops both:\nNew payment details? Call first, using a number you already have. Not the one in the email.\n\nRushing is the scammer's best friend. A real supplier can wait for a 2-minute phone call.\n\nSave this and share it with whoever pays the bills.\n\n#ScamAlert #BCBusiness #VancouverBusiness #SmallBusinessTips #Cybersecurity",
+   "permalink": "https://www.instagram.com/p/DfxG7ZoDmGV/",
+   "published_at": "2026-11-15T08:31:23-07:00"
+  },
+  {
+   "id": "2026-11-17-fake-it-calls",
+   "publish_on": "2026-11-16",
+   "status": "replaced",
+   "approved": "2026-11-13",
+   "image_urls": [
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-1.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-2.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-3.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-4.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-5.jpg",
+    "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8a2ce050edb23fdcd097a290c1937db07fa504b4/posts/2026-11-17-fake-it-calls/fake-it-calls-6.jpg"
+   ],
+   "caption": "Plot twist: the IT guy calling you isn't your IT guy.\n\nOn Oct 28, Canada's Cyber Centre warned that scammers are calling staff at Canadian organizations, pretending to be IT support. They say there's an urgent security update, then send you to a fake sign-in page that looks like your company's. You sign in, they get in.\n\nThe fix is easy:\n1. Hang up. Politely.\n2. Call IT back on a number you already have.\n3. Never sign in on a link someone gives you during a call.\n\nCaller ID can be faked, so a familiar number isn't proof. A real IT person won't mind waiting two minutes. A scammer will.\n\nShare this with your team, especially the new person.\n\n#Cybersecurity #ScamAlert #VancouverBusiness #SmallBusinessTips #Microsoft365",
+   "note": "Replaced by the reel 2026-11-16-hang-up-reel at Andrei's request (Nov 16). Not published. Slides remain in posts/ for later use."
+  },
+  {
+   "id": "2026-11-15-market-scam-reel",
+   "type": "reel",
+   "publish_on": "2026-11-15",
+   "status": "published",
+   "permalink": "https://www.instagram.com/reel/Dfx2Eo_EpzI/",
+   "published_at": "2026-11-15T15:24:01-07:00",
+   "note": "Replaces the carousel 2026-11-19-holiday-market-scam (deletion pending Andrei's confirmation)"
+  },
+  {
+   "id": "2026-11-16-hang-up-reel",
+   "type": "reel",
+   "publish_on": "2026-11-16",
+   "status": "published",
+   "approved": "2026-11-16",
+   "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/8866cd56abb8126335b74a02802e5e79a11615bf/posts/2026-11-16-hang-up-reel/hang-up-reel.mp4",
+   "caption": "Plot twist: the IT guy calling you isn't your IT guy.\n\nOn Oct 28, Canada's Cyber Centre warned that scammers are calling staff at Canadian organizations, pretending to be IT support. They say there's an urgent security update, then send you to a fake sign-in page that looks like your company's. You sign in, they get in.\n\nThe fix is easy:\n1. Hang up. Politely.\n2. Call IT back on a number you already have.\n3. Never sign in on a link someone gives you during a call.\n\nCaller ID can be faked, so a familiar number isn't proof. A real IT person won't mind waiting two minutes. A scammer will.\n\nShare this with your team, especially the new person.\n\n#Cybersecurity #ScamAlert #VancouverBusiness #SmallBusinessTips #Microsoft365",
+   "permalink": "https://www.instagram.com/reel/DfzrrmiCXMm/",
+   "published_at": "2026-11-16T08:32:06-07:00"
+  },
+  {
+   "id": "2026-11-16-zoo-the-code",
+   "type": "reel",
+   "series": "Liontech Zoo, episode 1",
+   "publish_on": "2026-11-16",
+   "status": "published",
+   "approved": "2026-11-16",
+   "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/3857f600852398ad7e5bf335842ca87721ace43e/posts/2026-11-16-zoo-the-code/zoo-ep1-the-code.mp4",
+   "cover_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/3857f600852398ad7e5bf335842ca87721ace43e/posts/2026-11-16-zoo-the-code/cover.jpg",
+   "caption": "Monday morning at the Liontech Zoo. 🦁\n\n“Hi, it’s IT Support! I just need that code we sent you.”\n\nReal IT never asks for your code. Liontech never will.\n\nIf someone calls and asks for it:\n1. Hang up.\n2. Call back on a number you already have.\n\nWhich coworker are you: the penguin, the gazelle or the sloth? 🐧🦌🦥\n\n#scamalert #cybersecurity #smallbusiness #vancouverbusiness #manageditservices #officelife",
+   "media_id": "18108513173259886",
+   "permalink": "https://www.instagram.com/reel/Df0KQcGAmrN/",
+   "published_at": "2026-11-16T12:58:53-07:00"
+  }
+ ]
 }

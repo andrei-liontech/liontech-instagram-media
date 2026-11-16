@@ -24,11 +24,22 @@ Failure (for example the Windsor.ai trial has ended): don't retry repeatedly. Te
 1. Search the last ~24 hours: Canadian Centre for Cyber Security alerts, Canadian Anti-Fraud Centre and RCMP scam warnings, Microsoft 365 outages and changes, and B.C. or Vancouver stories that affect small businesses. Open the source pages; don't rely on snippets.
 2. Check `queue.json` and recent posts so the same message isn't repeated.
 3. Nothing relatable and confirmable: reply with one line ("No post-worthy news today") and stop. On Mondays, include the suggested Note (see below) before stopping.
-4. Otherwise draft one post (two at most) in the personal, local, funny voice: hook, 6 slides, caption, hashtags, sources. Build the slides at 1080 × 1350 in the Liontech brand (scripts and logo assets in `/home/claude/ig`: `lib.py`, `build2.py` pattern). Send Andrei the previews and the caption, then ask: **"Post now, or schedule for the next 8:30 am slot?"**
+4. Otherwise draft one **reel** (see "Reels only" below). Send Andrei the script first if the idea is new; otherwise send the finished video, cover and caption. Then ask: **"Post now, or schedule for the next 8:30 am slot?"**
    **Mondays:** whether or not there's news, also suggest one Instagram Note for the "Share a thought…" bubble (about 60 characters, lasts 24 hours). Make it timely or a useful one-line reminder in the brand voice. Notes can't be posted through the API. When Andrei approves the Note, post it through the built-in browser (instagram.com/direct/inbox, the Note bubble above the profile picture) if the desktop app is reachable and signed in, then confirm it shows. Otherwise send him the text to paste in the app.
 5. Publish nothing without his approval. When he replies:
    - **Post now:** export the slides as JPEG to `posts/<date>-<topic>/`, push, publish via Windsor.ai, add the post to `queue.json` as `published`. If a queued post is due the next morning, move it back a day so there's at most one post per day.
    - **Schedule:** add the post to `queue.json` as `approved`, with `publish_on` set to the next free day; commit and push.
+
+## Reels only (from 16 Nov 2026)
+
+Andrei's decision: the account posts **reels only**. No carousels or single images unless he asks for one.
+
+- **Main format: The Liontech Zoo.** Short animated office sketches (25 to 35 seconds) with a fixed cast: lion (IT support, the hero), raccoon (the scammer), penguin (new hire), gazelle (panics and runs), sloth (does everything "later"), elephant (accounting), giraffe (office manager). One joke, one lesson, steps at the end. Episode 1: "The Code".
+- **News first.** When the 9:30 pm check finds a confirmable story, turn it into a zoo episode (the raccoon tries the scam in the news) or, if it is serious, a narrated reel in the earlier style. No story: suggest an evergreen zoo episode from the idea list instead of nothing, at most two reels a week without news.
+- **Script before video.** Andrei likes to edit the script. Send the lines as a short list, build after he replies. For a voice change, send a voice-only test before re-rendering.
+- **Build:** Remotion project `/home/claude/liontech-reels` (`src/zoo/Body.tsx` posable characters, `poses.ts`, `scenes.tsx`, `timing.ts`). Voices: `/home/claude/ig/zoo_audio2.py` (acted lines; it writes the audio and `timing.ts`, scenes follow the timings). Chosen voices: narrator female (af_heart + af_sarah), lion `am_echo`, gazelle `am_puck` with the long fading "run" (`zoo_test4.py` option 2), raccoon on a phone-line effect. Black-bodied characters need a light band behind them on dark scenes.
+- **Evergreen idea list:** fake invoice (elephant checks before paying); "I'll update it later" (sloth and the restart); new hire clicks every link (penguin); the gazelle forwards a chain warning to everyone; a staff member leaves and still has access (giraffe and the offboarding checklist); Microsoft 365 is down and nobody knows who to call; the sticky-note password.
+- Never post without approval. The same claims rules apply as for any post.
 
 ## Reels: cover image (required)
 
