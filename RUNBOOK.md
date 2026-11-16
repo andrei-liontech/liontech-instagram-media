@@ -12,7 +12,7 @@ Instagram account: @liontech_solutions, Windsor.ai connector `instagram`, accoun
 
 1. `git pull` this repo (clone to `/home/claude/liontech-instagram-media` if missing). Read `queue.json`.
 2. Take posts with `status: approved` and `publish_on` on or before today. Publish **at most one per day**, the earliest. Move any others to the next free days and tell Andrei.
-3. Publish with Windsor.ai `execute_action`: `create_carousel_post` (or `create_image_post` for one image), using the stored `image_urls` and `caption` exactly.
+3. Publish with Windsor.ai `execute_action`, using the stored fields exactly: `create_carousel_post` with `image_urls` and `caption`; `create_image_post` for a single image; or, for an entry with `type: reel`, `create_video_post` with `video_url`, `caption` and `share_to_feed: true`. Skip entries whose status is anything other than `approved` (for example `replaced`).
 4. Get the permalink with `get_data` (fields `media_id`, `media_permalink`, filtered by `media_id`). In `queue.json` set `status: published`, add `permalink` and `published_at`; commit and push. Mark the post as published, with the link, in the doc.
 5. Send Andrei one short message with the live link.
 
