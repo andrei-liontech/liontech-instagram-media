@@ -12,7 +12,7 @@ Instagram account: @liontech_solutions, Windsor.ai connector `instagram`, accoun
 
 1. `git pull` this repo (clone to `/home/claude/liontech-instagram-media` if missing). Read `queue.json`.
 2. Take posts with `status: approved` and `publish_on` on or before today. Publish **at most one per day**, the earliest. Move any others to the next free days and tell Andrei.
-3. Publish with Windsor.ai `execute_action`, using the stored fields exactly: `create_carousel_post` with `image_urls` and `caption`; `create_image_post` for a single image; or, for an entry with `type: reel`, `create_video_post` with `video_url`, `caption` and `share_to_feed: true`. Skip entries whose status is anything other than `approved` (for example `replaced`).
+3. Publish with Windsor.ai `execute_action`, using the stored fields exactly: `create_carousel_post` with `image_urls` and `caption`; `create_image_post` for a single image; or, for an entry with `type: reel`, `create_video_post` with `video_url`, `cover_url`, `caption` and `share_to_feed: true`. Never publish a reel without `cover_url`: without it Instagram uses the first frame, which is blank. Skip entries whose status is anything other than `approved` (for example `replaced`).
 4. Get the permalink with `get_data` (fields `media_id`, `media_permalink`, filtered by `media_id`). In `queue.json` set `status: published`, add `permalink` and `published_at`; commit and push. Mark the post as published, with the link, in the doc.
 5. Send Andrei one short message with the live link.
 
@@ -29,3 +29,13 @@ Failure (for example the Windsor.ai trial has ended): don't retry repeatedly. Te
 5. Publish nothing without his approval. When he replies:
    - **Post now:** export the slides as JPEG to `posts/<date>-<topic>/`, push, publish via Windsor.ai, add the post to `queue.json` as `published`. If a queued post is due the next morning, move it back a day so there's at most one post per day.
    - **Schedule:** add the post to `queue.json` as `approved`, with `publish_on` set to the next free day; commit and push.
+
+## Reels: cover image (required)
+
+Every reel needs a cover, because the profile grid shows it.
+
+- Make a 1080 × 1920 JPEG cover with the reel's title, using `/home/claude/ig/cover.py` (kicker, title, accent line, logo). Keep the text in the centre of the frame: the profile grid crops the cover to its middle.
+- Save it as `posts/<date>-<topic>/cover.jpg`, push, and store its raw URL as `cover_url` in the reel's `queue.json` entry.
+- Show Andrei the cover with the reel when asking for approval.
+- Also make the reel's first frame non-empty (title already visible at frame 0), as a fallback.
+- A cover can't be changed through the API after publishing. For a published reel, Andrei changes it in the Instagram app: the reel's menu, Edit, Cover, Add from camera roll.
