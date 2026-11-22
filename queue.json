@@ -153,6 +153,30 @@
    "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/ee0d1a3697f6d362da19f5163f5ce102ef4664ae/posts/2026-11-21-zoo-laziest-hacker/zoo-ep8-laziest-hacker.mp4",
    "cover_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/ee0d1a3697f6d362da19f5163f5ce102ef4664ae/posts/2026-11-21-zoo-laziest-hacker/cover.jpg",
    "media_id": "18115626004879836"
+  },
+  {
+   "id": "2026-11-25-zoo-the-new-it-guy",
+   "type": "reel",
+   "series": "Liontech Zoo, episode 7",
+   "publish_on": "2026-11-25",
+   "status": "approved",
+   "approved": "2026-11-21",
+   "hook_score": "78 STRONG",
+   "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/f10c8465777e4b32b6b15b96aadb1b81a2c1493f/posts/2026-11-25-zoo-the-new-it-guy/zoo-ep7-the-new-it-guy.mp4",
+   "cover_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/f10c8465777e4b32b6b15b96aadb1b81a2c1493f/posts/2026-11-25-zoo-the-new-it-guy/cover.jpg",
+   "caption": "Would your office ask a surprise “IT guy” for ID? Tell us below. 👇\n\nNobody asked ours. That’s how three raccoons in a trench coat got into the server room.\n\nSomeone shows up saying they’re from IT support? Ask for ID, then call your IT company to check. And no mystery USB sticks.\n\n#cybersecurity #officesecurity #smallbusiness #vancouverbusiness #officehumor"
+  },
+  {
+   "id": "2026-11-27-zoo-free-coffee",
+   "type": "reel",
+   "series": "Liontech Zoo, episode 9",
+   "publish_on": "2026-11-27",
+   "status": "approved",
+   "approved": "2026-11-21",
+   "hook_score": "83 STRONG",
+   "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/f10c8465777e4b32b6b15b96aadb1b81a2c1493f/posts/2026-11-27-zoo-free-coffee/zoo-ep9-free-coffee.mp4",
+   "cover_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/f10c8465777e4b32b6b15b96aadb1b81a2c1493f/posts/2026-11-27-zoo-free-coffee/cover.jpg",
+   "caption": "Send this to the coworker who scans every QR code. ☕\n\nA QR code is just a link, and a fake QR code sticker takes seconds to put up. If it asks you to sign in, stop and check where the link goes first.\n\nThere is no free coffee.\n\n#qrcodescam #cybersecurity #blackfriday #smallbusiness #vancouverbusiness"
   }
  ]
 }
