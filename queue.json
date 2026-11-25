@@ -162,13 +162,14 @@
    "id": "2026-11-25-zoo-the-new-it-guy",
    "type": "reel",
    "series": "Liontech Zoo, episode 7",
-   "publish_on": "2026-11-25",
+   "publish_on": "2026-11-30",
    "status": "approved",
    "approved": "2026-11-21",
    "hook_score": "78 STRONG",
    "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/f10c8465777e4b32b6b15b96aadb1b81a2c1493f/posts/2026-11-25-zoo-the-new-it-guy/zoo-ep7-the-new-it-guy.mp4",
    "cover_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/f10c8465777e4b32b6b15b96aadb1b81a2c1493f/posts/2026-11-25-zoo-the-new-it-guy/cover.jpg",
-   "caption": "Would your office ask a surprise “IT guy” for ID? Tell us below. 👇\n\nNobody asked ours. That’s how three raccoons in a trench coat got into the server room.\n\nSomeone shows up saying they’re from IT support? Ask for ID, then call your IT company to check. And no mystery USB sticks.\n\n#cybersecurity #officesecurity #smallbusiness #vancouverbusiness #officehumor"
+   "caption": "Would your office ask a surprise “IT guy” for ID? Tell us below. 👇\n\nNobody asked ours. That’s how three raccoons in a trench coat got into the server room.\n\nSomeone shows up saying they’re from IT support? Ask for ID, then call your IT company to check. And no mystery USB sticks.\n\n#cybersecurity #officesecurity #smallbusiness #vancouverbusiness #officehumor",
+   "note": "Moved from 25 Nov to 30 Nov to make room for The Call (Andrei, 24 Nov)"
   },
   {
    "id": "2026-11-27-zoo-free-coffee",
@@ -209,6 +210,19 @@
    "permalink": "https://www.instagram.com/reel/DgISCgJlcu4/",
    "published_at": "2026-11-24T15:31:22+0000",
    "media_id": "17980569741158020"
+  },
+  {
+   "id": "2026-11-25-zoo-the-call",
+   "type": "reel",
+   "series": "Liontech Zoo, episode 12",
+   "publish_on": "2026-11-25",
+   "status": "approved",
+   "approved": "2026-11-24",
+   "video_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/5b748549f4c43cdca25591000f9f0eebba762a74/posts/2026-11-25-zoo-the-call/zoo-ep12-the-call.mp4",
+   "cover_url": "https://raw.githubusercontent.com/andrei-liontech/liontech-instagram-media/5b748549f4c43cdca25591000f9f0eebba762a74/posts/2026-11-25-zoo-the-call/cover.jpg",
+   "caption": "Send this to whoever does the banking at your office. 🏦\n\nSome banking apps now ask “Are you on the phone with us?” because scammers call pretending to be the bank. Your bank will never ask for your code or your password, or tell you to move your money.\n\nYour bank calls you? Hang up. Call the number on your card.\n\n#bankscam #scamcall #cybersecurity #smallbusiness #vancouverbusiness",
+   "hook_score": "81.4 STRONG",
+   "source": "Andrei's idea: a bank app's in-app scam alert"
   }
  ]
 }
